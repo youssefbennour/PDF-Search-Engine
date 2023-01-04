@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Taki Academy\\source\\repos\\PdfSearchEngine\\PdfSearchEngine\\PdfSearchEngine.csproj": {}
+    "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Taki Academy\\source\\repos\\PdfSearchEngine\\PdfSearchEngine\\PdfSearchEngine.csproj": {
+    "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Taki Academy\\source\\repos\\PdfSearchEngine\\PdfSearchEngine\\PdfSearchEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj",
         "projectName": "PdfSearchEngine",
-        "projectPath": "C:\\Users\\Taki Academy\\source\\repos\\PdfSearchEngine\\PdfSearchEngine\\PdfSearchEngine.csproj",
-        "packagesPath": "C:\\Users\\Taki Academy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Taki Academy\\source\\repos\\PdfSearchEngine\\PdfSearchEngine\\obj\\",
+        "projectPath": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj",
+        "packagesPath": "C:\\Users\\Takiacademy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Taki Academy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Takiacademy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +44,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
