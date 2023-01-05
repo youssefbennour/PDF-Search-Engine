@@ -9,21 +9,22 @@ namespace PdfSearchEngine {
         public void displaySearchResult(Indexer idx)
         {
             idx.listDirectoryFiles();
+            idx.storeIndexation();
             while (true)
             {
                 Console.Write("Enter a word: ");
-                string input = Console.ReadLine();
-                
+                string hashedWordWord = Console.ReadLine();
+                int hashedWord = hashedWordWord.GetHashCode();
 
-                if (idx.wordIndexer.ContainsKey(input))
+                if (idx.wordIndexer.ContainsKey(hashedWord))
                 {
-                    for (int j = 0, outputCounter = 0; j < idx.wordIndexer[input].Count & outputCounter <= 15; j += 4, outputCounter++)
+                    for (int j = 0, outputCounter = 0; j < idx.wordIndexer[hashedWord].Count & outputCounter <= 15; j += 4, outputCounter++)
                     {
                         Console.WriteLine("--------------------------------------");
-                        Console.WriteLine($"|PDF NAME: {idx.FileNameIndexer[idx.wordIndexer[input].ElementAt(j)]}");
-                        Console.WriteLine($"|PDF PAGE: {idx.wordIndexer[input].ElementAt(j + 1)}");
-                        Console.WriteLine($"|Line Number: {idx.wordIndexer[input].ElementAt(j + 2)}");
-                        Console.WriteLine($"|word number: {idx.wordIndexer[input].ElementAt(j + 3)}");
+                        Console.WriteLine($"|PDF NAME: {idx.FileNameIndexer[idx.wordIndexer[hashedWord].ElementAt(j)]}");
+                        Console.WriteLine($"|PDF PAGE: {idx.wordIndexer[hashedWord].ElementAt(j + 1)}");
+                        Console.WriteLine($"|Line Number: {idx.wordIndexer[hashedWord].ElementAt(j + 2)}");
+                        Console.WriteLine($"|word number: {idx.wordIndexer[hashedWord].ElementAt(j + 3)}");
                         Console.WriteLine("--------------------------------------");
 
                     }

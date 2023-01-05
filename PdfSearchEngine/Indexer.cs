@@ -15,10 +15,8 @@ namespace PdfSearchEngine {
         private string[] availablePdfs;
         private string PdfsPath { get; set; }
         private string pdfNameIndexer { get; set; }
-        public Dictionary<string, List<int>> wordIndexer;
+        public SortedDictionary<int, List<int>> wordIndexer;
         public Dictionary<int, string> FileNameIndexer;
-
-
 
         private string[] stopWords;
         public string punctuationChars;
@@ -27,7 +25,7 @@ namespace PdfSearchEngine {
             this.PdfsPath = "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\pdfs-challenge-2";
             this.pdfNameIndexer = "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\Current-pdfs.txt";
             this.availablePdfs = Directory.GetFiles(PdfsPath);
-            this.wordIndexer = new Dictionary<string, List<int>>();
+            this.wordIndexer = new SortedDictionary<int, List<int>>();
             this.FileNameIndexer = new Dictionary<int, string>();
 
             this.punctuationChars = ",?!.-'";
@@ -48,29 +46,13 @@ namespace PdfSearchEngine {
                     string[] wordsArr = lines[lineIndex].Split(' ');
                     for (int wordIndex = 0; wordIndex < wordsArr.Length; wordIndex++)
                     {
-                        int xc = wordsArr[wordIndex].GetHashCode();
-                        //for(int charIndex = 0; charIndex < wordsArr[wordIndex].Length; charIndex++)
-                        //{
-                            
-                        //}
-                        //bool wordValidation = true;
-                        //for (int punctuationIndex = 0; punctuationIndex < punctuationChars.Length; punctuationIndex++)
-                        //{
-                        //    string word = wordsArr[wordIndex];
-                        //    //if (word[wo] == punctuationChars[punctuationIndex])
-                        //    //{
-                        //    //    break;
-                        //    //}
-                        //    Console.WriteLine();
-                        //}
-
-                        if (wordIndexer.ContainsKey(wordsArr[wordIndex]))
+                        int hashedWord = wordsArr[wordIndex].GetHashCode();
+                        if (wordIndexer.ContainsKey(hashedWord))
                         {
-                            wordIndexer[wordsArr[wordIndex]].Add(pdfId);
-                            wordIndexer[wordsArr[wordIndex]].Add(pageIndex);
-                            wordIndexer[wordsArr[wordIndex]].Add(lineIndex);
-                            wordIndexer[wordsArr[wordIndex]].Add(wordIndex);
-    
+                            wordIndexer[hashedWord].Add(pdfId);
+                            wordIndexer[hashedWord].Add(pageIndex);
+                            wordIndexer[hashedWord].Add(lineIndex);
+                            wordIndexer[hashedWord].Add(wordIndex);
                         }
                         else
                         {
@@ -79,7 +61,7 @@ namespace PdfSearchEngine {
                             tempList.Add(pageIndex);
                             tempList.Add(lineIndex);
                             tempList.Add(wordIndex);
-                            wordIndexer.Add(wordsArr[wordIndex], tempList);
+                            wordIndexer.Add(hashedWord, tempList);
 
                         }
                     }
@@ -98,6 +80,34 @@ namespace PdfSearchEngine {
             }
         }
 
+        public void storeIndexation()
+        {
+            //using (StreamWriter sw = new StreamWriter("indexation.txt", true, Encoding.UTF8, 65536))
+            //{
+            //    foreach(var item in wordIndexer)
+            //    {
+            //        string line = item.Key.ToString();
+            //        foreach(var subItem in item.Value)
+            //        {
+            //            line += " " + subItem.ToString();
+            //        }
+            //        sw.WriteLine(line);
+            //    }
+            //}
+            StringBuilder sb = new StringBuilder();
+            foreach(var item in wordIndexer)
+            {
+                sb.Append(item.Key);
+                foreach(var subItem in item.Value)
+                {
+                    sb.Append($" {subItem.ToString()}");
+                }
+                sb.Append('\n');
+            }
+
+            File.AppendAllText("indexxx.txt", sb.ToString());
+        }
+
 
         public void listDirectoryFiles()
         {
@@ -106,16 +116,8 @@ namespace PdfSearchEngine {
                 string finalPdfName = availablePdfs[i].Split('\\')[^1].Split(".pdf")[0];
                 FileNameIndexer.Add(i + 1, finalPdfName);
                 string line = $"{i + 1}";
-                //using (StreamWriter sr = new StreamWriter(pdfNameIndexer, true))
-                //{
-                //    sr.WriteLine($"{i + 1} {availablePdfs[i].ToString()}");
-                //}
-
             }
             
         }
-        
-
-
     }
 } 
