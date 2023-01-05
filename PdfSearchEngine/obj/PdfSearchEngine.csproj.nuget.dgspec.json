@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj": {}
+    "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine - Copie - Copie\\PdfSearchEngine\\PdfSearchEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj": {
+    "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine - Copie - Copie\\PdfSearchEngine\\PdfSearchEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine - Copie - Copie\\PdfSearchEngine\\PdfSearchEngine.csproj",
         "projectName": "PdfSearchEngine",
-        "projectPath": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\PdfSearchEngine.csproj",
+        "projectPath": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine - Copie - Copie\\PdfSearchEngine\\PdfSearchEngine.csproj",
         "packagesPath": "C:\\Users\\Takiacademy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine\\PdfSearchEngine\\obj\\",
+        "outputPath": "C:\\Users\\Takiacademy\\Desktop\\PDF-Search-Engine - Copie - Copie\\PdfSearchEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
             "iTextSharp": {
               "target": "Package",
               "version": "[5.5.13.3, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.2.4, )"
             }
           },
           "imports": [
