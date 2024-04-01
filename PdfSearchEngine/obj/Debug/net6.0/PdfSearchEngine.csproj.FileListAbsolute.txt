@@ -18,3 +18,100 @@ C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\obj\Debug\net6.0\
 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\obj\Debug\net6.0\ref\PdfSearchEngine.dll
 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.barcodes.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.forms.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.io.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.kernel.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.layout.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.pdfa.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.sign.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.styledxmlparser.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.svg.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\itext.commons.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine\PdfSearchEngine\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.exe
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.deps.json
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.runtimeconfig.json
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.pdb
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.barcodes.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.forms.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.io.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.kernel.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.layout.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.pdfa.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.sign.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.styledxmlparser.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.svg.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.commons.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\itextsharp.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.csproj.AssemblyReference.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.AssemblyInfoInputs.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.AssemblyInfo.cs
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.csproj.CoreCompileInputs.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.csproj.CopyComplete
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\refint\PdfSearchEngine.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.pdb
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.genruntimeconfig.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie\PdfSearchEngine\obj\Debug\net6.0\ref\PdfSearchEngine.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.csproj.AssemblyReference.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.AssemblyInfoInputs.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.AssemblyInfo.cs
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.csproj.CoreCompileInputs.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\refint\PdfSearchEngine.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.pdb
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.exe
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.deps.json
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.runtimeconfig.json
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\PdfSearchEngine.pdb
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.barcodes.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.forms.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.io.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.kernel.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.layout.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.pdfa.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.sign.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.styledxmlparser.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.svg.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itext.commons.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\itextsharp.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.csproj.CopyComplete
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\PdfSearchEngine.genruntimeconfig.cache
+C:\Users\Takiacademy\Desktop\PDF-Search-Engine - Copie - Copie\PdfSearchEngine\obj\Debug\net6.0\ref\PdfSearchEngine.dll

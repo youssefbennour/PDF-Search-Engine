@@ -9,28 +9,47 @@ namespace PdfSearchEngine {
         public void displaySearchResult(Indexer idx)
         {
             idx.listDirectoryFiles();
+            //idx.storeIndexation();
             while (true)
             {
                 Console.Write("Enter a word: ");
-                string input = Console.ReadLine();
-                
+                string word = Console.ReadLine();
+                string filePath = "index.txt";
+                int numberOfLines = File.ReadAllLines(filePath).Length;
 
-                if (idx.wordIndexer.ContainsKey(input))
+                int start = 1, end = numberOfLines;
+                bool foundWord = false;
+
+                while (start <= end)
                 {
-                    for (int j = 0, outputCounter = 0; j < idx.wordIndexer[input].Count & outputCounter <= 15; j += 4, outputCounter++)
+                    int mid = start + (end - start) / 2;
+                    string [] splittedData = File.ReadLines(filePath).Skip(mid - 1).Take(1).First().Split(' ');
+                    if (string.Compare(word, splittedData[0]) == 0)
                     {
-                        Console.WriteLine("--------------------------------------");
-                        Console.WriteLine($"|PDF NAME: {idx.FileNameIndexer[idx.wordIndexer[input].ElementAt(j)]}");
-                        Console.WriteLine($"|PDF PAGE: {idx.wordIndexer[input].ElementAt(j + 1)}");
-                        Console.WriteLine($"|Line Number: {idx.wordIndexer[input].ElementAt(j + 2)}");
-                        Console.WriteLine($"|word number: {idx.wordIndexer[input].ElementAt(j + 3)}");
-                        Console.WriteLine("--------------------------------------");
-
+                        foundWord = true;
+                        for(int occurenceIndex = 1, searchCounter = 0; occurenceIndex < splittedData.Length && searchCounter < 15; occurenceIndex+=4, searchCounter++)
+                        {
+                            Console.WriteLine("--------------------------------------");
+                            Console.WriteLine($"|PDF NAME: {idx.FileNameIndexer[Int32.Parse(splittedData[occurenceIndex])]}");
+                            Console.WriteLine($"|PDF PAGE: {splittedData[occurenceIndex+1]}");
+                            Console.WriteLine($"|Line Number: {splittedData[occurenceIndex+2]+1}");
+                            Console.WriteLine($"|word number: {splittedData[occurenceIndex+3]+1}");
+                            Console.WriteLine("--------------------------------------");
+                        }
+                        break;
+                    }
+                    else if (string.Compare(word, splittedData[0]) > 0)
+                    {
+                        start = mid + 1;
+                    }
+                    else
+                    {
+                        end = mid - 1;
                     }
                 }
-                else
+                if (!foundWord)
                 {
-                    Console.WriteLine("Not Found");
+                    Console.WriteLine("Not found");
                 }
             }
         }

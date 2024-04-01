@@ -1,8 +1,0 @@
-1 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\Atlas of World History.pdf
-2 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\Fundamentals-of-Computer-Programming-with-CSharp-Nakov-eBook-v2013.pdf
-3 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\IntroToCrypto.pdf
-4 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\master_machine_learning_algo_from_scratch.pdf
-5 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\ModernC.pdf
-6 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\Rich Dad Poor Dad.pdf
-7 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\stepbystepguide2009.pdf
-8 C:\Users\Takiacademy\Desktop\PDF-Search-Engine\pdfs-challenge-2\The Decisive Battles of World History.pdf

@@ -5,10 +5,11 @@ namespace PdfSearchEngine {
         static void Main(string[] args) {
             Indexer idx = new Indexer();
             //idx.listDirectoryFiles();
-            idx.indexAll();
-    
+            //idx.indexAll();
             Searcher sc = new Searcher();
             sc.displaySearchResult(idx);
+
+           
             
         }
     }
